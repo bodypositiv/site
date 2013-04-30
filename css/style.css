@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+.clear_left {
+    clear: left;
+}
+
+.clear_right {
+    clear: right;
+}
+
+#header{
+    background: #000;
+    height: 60px;
+    width: 100%;
+}
+
+#header2{
+    width: 880px;
+    height: 100%;
+    margin: 0px auto;
+}
+
+#login{
+    float: right;
+    background: gray;
+    width: 500px;
+    height: 100%;
+}
+
+#all{
+    width: 880px;
+    margin: 0 auto;
+}
+
+#left{
+    width: 220px;
+    float: left;
+    height: 1000px;
+}
+
+#main{
+ //border: 1px solid orange;
+    height: 1200px;
+    margin-left: 245px;
+    padding-top: 57px;
+}
+
+#to_main{
+    display: block;
+}
+
+.left_block{
+    margin-top: 10px;
+}
+
+.left_block .header{
+    background: #333;
+    color: white;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    font-size: 105%;
+    font-weight: bold;
+    font-family: Arial;
+    letter-spacing: 1px;
+}
+
+.left_block .content{
+    text-align: justify;
+    border: 1px solid #EBEBEB;
+    border-top: none;
+    padding: 10px;
+}
+
+.main_block {
+
+}
+
+.main_block h3 {
+    background: #c00;
+    display: block;
+    margin: 0px;
+    padding: 4px 8px;
+}
+
+.main_block h3 a {
+    color: white;
+    text-decoration: underline;
+    padding-left: 25px;
+    background: url("../i/bullet.gif") no-repeat left;
+    text-transform: uppercase;
+    font-size: 102%;
+    font-weight: normal;
+    font-family: Arial;
+    letter-spacing: 0.5px;
+}
+
+.main_block h3 a:hover {
+    text-decoration: none;
+}
+
+.main_block .content {
+    overflow: hidden;
+
+}
+
+.main_block img {
+    width: 120px;
+    padding: 5px;
+    border: 1px solid #d3d3d3;
+    float: left;
+}
+
+.main_block .content p {
+    margin: 10px;
+    margin-left: 140px;
+    text-align: justify;
+}
+
+.main_block .fulltag {
+    clear: both;
+    font-size: 10px;
+    color: #707070;
+    margin: 50px 0px 0px 0px;
+    padding: 3px;
+}
+
+.main_block .fulltag a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.footer {
+    clear: both;
+    border-top: 2px solid #FF0000;
+    text-align: center;
+    line-height: 1.0em;
+    font-size: 95%;
+}
+
+.footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a {
+    color: #003366;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #CC0001;
+    background-color: inherit;
+}
+
+p {
+    padding: 0;
+    margin: 10px;
+}
